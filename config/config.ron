@@ -1,0 +1,9 @@
+AppConfig(
+    port: 8888,
+    database: DatabaseConfig(
+        user: "****",
+        host: "****:3306",
+        database: "****",
+        password: "****",
+    ),
+)
