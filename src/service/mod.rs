@@ -1,8 +1,3 @@
-pub mod game;
-pub mod lobby;
-pub mod room;
-pub mod user;
-
 use crate::{config, utils::transform::Transformation};
 
 use actix_web::{dev::Server, get, middleware, web, App, HttpServer, Responder};
