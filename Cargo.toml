@@ -32,6 +32,9 @@ sea-orm = { version = "0.12.4", features = [
 once_cell = "1.15.0"
 async-oncecell = "0.2.0"
 
+[dependencies.mimalloc]
+version = "0.1.39"
+
 [dependencies.tokio]
 version = "1.27.0"
 features = ["full"]
